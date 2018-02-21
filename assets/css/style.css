@@ -1,0 +1,64 @@
+body {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-attachment: fixed;
+	height: auto;
+	position: relative;
+	font-size: 24px;
+	text-align: center;
+}
+
+.panel-body {
+	background-color: white;
+	border-color: black;
+	height: 400px;
+	margin: 25%;
+	position: fixed;
+	width: 50%;
+	top: -225px;
+	text-align: center;
+
+}
+
+.panel {
+	text-align: center;
+}
+
+.answerButton {
+	background-color: white;
+	border: none;
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.answerButton:hover {
+	background-color: yellow;
+}
+
+#start {
+	margin: auto;
+	text-align: center;
+	display: block;
+
+}
+
+#questions {
+	text-align: center;
+	width: 100%;
+	height: 500px;
+	display: block;
+	margin: 0 auto;
+}
+
+img {
+	margin-top: 35px;
+	margin-bottom: 20px;
+}
+
+#counter {
+	text-align: center;
+	font-weight: bold;
+}
+
