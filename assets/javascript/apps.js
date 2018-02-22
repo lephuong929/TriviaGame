@@ -175,10 +175,8 @@ nextQuestion = function() {
 
 results = function() {
 	clearInterval(timer);
-	$("#questions").html("ALL DONE");
-	$("#questions").html("<p> Correct: " + correct + "</p>" + "<p> Incorrect: " + incorrect + "</p>" + "<p> Unanswered: " + unanswered + "</p>");
-	// $("#questions").append("Incorrect: " + incorrect);
-	// $("#questions").append("Unanswered: " + unanswered);
+	$("#questions").html("<h2> Final Results </h2>");
+	$("#questions").append("<p> Correct: " + correct + "</p>" + "<p> Incorrect: " + incorrect + "</p>" + "<p> Unanswered: " + unanswered + "</p>");
 	$("#questions").append("<button id='reset'>Reset Game</button>");
 
 }
